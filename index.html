@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="js/owl/owl.carousel.min.css">
     <link rel="stylesheet" href="js/owl/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Spicy+Rice&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -22,7 +24,7 @@
       
                 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-primary">
                     <!-- <nav class="navbar fixed-top navbar-expand-lg navbar-light scrolling-navbar"> -->
-                        <a class="navbar-brand" href="#home">WT</a>
+                        <a class="navbar-brand" href="#home"> <img src="image/icon1.png" alt="icon1" id="icon-image">WT Car Rent </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                           </button>
@@ -61,13 +63,59 @@
     <section id="home">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-2"></div>
-                    <div class="col-md-8">
-                         <h5> WT-CarRent</h5>  
+                    <div class="col-md-7">
+                        <h5> WT-CarRent</h5>  
                     </div>
-                    <div class="col-md-2"></div>
+                    <div class="col-md-5">
+                         
+                         <!-- <img src="image/rent1.jpeg" alt="rent5" id="image-home">  -->
+                         <form class="form-group" id="myform" onsubmit="return validation()" action="https://formspree.io/mjvgrdrp"   method="POST">
+                            <h4 class="form-heading">Book a Car</h4>
+                            <h4 class="form-heading"> Pick Up Location</h4>
+                            <input type="text" class="input-field" placeholder="your location"><br>
+                            <input type="email" class="input-field" placeholder="Pick up date">
+                            <input type="text" class="input-field" placeholder="Return Date">
+                    
+                          
+                            <div id="submit-btn">
+                                <button type="button" class="btn btn-primary btn-sm" input type="submit" value="">Get A Quote</button>
+            
+                           </div>
+                        </form>
+                    </div>
+                    <div class="col-md-2">        </div>
                                
 </section>
+    <section id="special-offer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="car-detail">
+                        <h2 class="car-detail-head">Small Economy</h2>
+                        <p class="car-detail-text">(Example of this range:Ford Fiesta)</p>
+                    </div>
+                    <img src="image/car/carl1.jpeg" alt="car"  id="special-offer-car">
+
+
+                </div>
+                <div class="col-md-4">
+                    <div class="car-detail">
+                        <h2 class="car-detail-head">Medium:low emission</h2>
+                        <p class="car-detail-text">(Example of this range:Ford Fiesta)</p>
+                    </div>
+                    <img src="image/car/carl2.jpeg" alt="car"  id="special-offer-car">
+
+                </div>
+                <div class="col-md-4">
+                    <div class="car-detail">
+                        <h2 class="car-detail-head">Large: Station Wagon</h2>
+                    </div>
+                    <img src="image/car/carl4.jpeg" alt="car"  id="special-offer-car">
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     </body>   
 
