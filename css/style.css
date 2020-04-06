@@ -6,11 +6,11 @@
 }
 .navbar-brand {
     text-align: center;
-    padding-left: 60px;
+    padding-left: 40px;
 }
 
 ul.navbar-nav.ml-auto{
-    padding-right: 60px;
+    padding-right: 70px;
 }
 li.nav-item{
     padding-left:10px;
