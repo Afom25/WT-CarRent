@@ -48,13 +48,39 @@ textarea.input-field.textarea-field{
     color:white;
     font-size: 20px;;
 }
-
+/* services*/
+#services{
+    background: whitesmoke;
+    height: 70vh;
+    margin-top: 2rem;
+}
+.car-service-head{
+    font-family: 'Righteous', cursive;
+}
+.car-service-text{
+    font-family: 'Sen', sans-serif;
+}
+/*type of offer*/
+#type-offer{
+    padding: 50px;
+    margin-top: 15rem;;
+}
+/*cars*/
+#cars{
+    background: whitesmoke;
+    height:70vh;
+    margin-top: 35rem;
+    padding: 40px;
+}
 /*special-offer*/
 
+
 #car-detail-col{
-    margin-top: 2rem;;
+    margin-top: 1rem;;
+    /* padding: 10px;; */
  
 }
+
 .car-detail{
     background: rgb(6, 6, 253);
 }
@@ -65,6 +91,20 @@ textarea.input-field.textarea-field{
 .car-detail-text{
     font-size: 13px;
     color:white;
+}
+#special-offer-cars{
+
+    height: 100vh;
+    margin-top: 30rem;
+}
+#type-offer{
+    height: 70vh;
+}
+#special-offer{
+    height: 70vh;
+}
+#cars{
+    height: 60vh;
 }
 #special-offer-car{
     width:350px;
@@ -102,6 +142,7 @@ textarea.input-field.textarea-field{
 }
 h5{
     text-align: center;
+    font-family: 'Raleway', sans-serif;
 }
 
 

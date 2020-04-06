@@ -1,128 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WT-CARRENT</title>
-    <link rel="stylesheet"  href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animate/animate.css">
     <link rel="stylesheet" href="js/owl/owl.carousel.min.css">
     <link rel="stylesheet" href="js/owl/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <!-- Font Awesome -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Spicy+Rice&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sen&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 
 <body>
     <!--Start Navbar-->
     <header>
-       
-      
-                <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-primary">
-                    <!-- <nav class="navbar fixed-top navbar-expand-lg navbar-light scrolling-navbar"> -->
-                        <a class="navbar-brand" href="#home"> <img src="image/icon1.png" alt="icon1" id="icon-image">WT Car Rent </a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                          </button>
-                          
-                          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                            <ul class="navbar-nav ml-auto">
-                              <li class="nav-item active">
-                                <a class="nav-link" href="#home">HOME</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#offers">OFFERS</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#cars">CARS</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#location">LOCATIONS</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#about">ABOUT</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#contact">CONTACT</a>
-                              </li>
-                              <li class="nav-item">
-                               <button type="button" class="btn btn-light"> <a class="nav-link" href="#about">LOG IN</a> </button> 
-                              </li>
-                            </ul>
-                          </div>
-                        </nav>
 
-        
+
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-primary">
+            <!-- <nav class="navbar fixed-top navbar-expand-lg navbar-light scrolling-navbar"> -->
+            <a class="navbar-brand" href="#home"> <img src="image/icon1.png" alt="icon1" id="icon-image">WT Car Rent
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#offers">OFFERS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cars">CARS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#location">LOCATIONS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-light"> <a class="nav-link" href="#about">LOG IN</a>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
     </header>
     <!---End section navbar-->
-  
-    <section id="home">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-7">
-                        <h5> WT-CarRent</h5>  
-                    </div>
-                    <div class="col-md-5">
-                         
-                         <!-- <img src="image/rent1.jpeg" alt="rent5" id="image-home">  -->
-                         <form class="form-group" id="myform" onsubmit="return validation()" action="https://formspree.io/mjvgrdrp"   method="POST">
-                            <h4 class="form-heading">Book a Car</h4>
-                            <h4 class="form-heading"> Pick Up Location</h4>
-                            <input type="text" class="input-field" placeholder="your location"><br>
-                            <input type="email" class="input-field" placeholder="Pick up date">
-                            <input type="text" class="input-field" placeholder="Return Date">
-                    
-                          
-                            <div id="submit-btn">
-                                <button type="button" class="btn btn-primary btn-sm" input type="submit" value="">Book</button>
-            
-                           </div>
-                        </form>
-                    </div>
-                    <div class="col-md-2">        </div>
-                               
-</section>
-<section id="special-offer">
-    <h5> SERVICES</h5>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4  text-center" id="car-detail-col">
-                <div class="car-service">
-                    <h2 class="car-service-head">CAR WASH</h2>
-                    <p class="car-service-text">
-                        Industry Use of the Word "Carwash" Versus "Car Wash" Considered. ... No one in the mobile car washing industry uses the word "carwash" to describe their businesses, and most everyone in the traditional location based carwashes uses "carwash" to
-                    </p>
-                
-                </div>
-            </div>
-            <div class="col-md-4 text-center" id="car-detail-col">
-                <div class="car-service">
-                    <h2 class="car-service-head">CAR RENT</h2>
-                    <p class="car-service-text">
-                        Car rental. A car rental or car hire agency is a company that rents automobiles for short periods of time for a fee. It is often organized with numerous local branches, and primarily located near airports or busy city areas and often complemented 
-                    </p>
-                </div>
-                
 
-            </div>
-            <div class="col-md-4 text-center" id="car-detail-col">
-                <div class="car-service">
-                    <h2 class="car-service-head"> CAR GLASS</h2>
-                    <p class="car-service-text">
-                        Vehicle glass includes windscreens, side and rear windows, and glass panel roofs on a vehicle. ... Back Glass also called rear window glass, rear windshield, or rear glass, is the piece of glass opposite the windshield in a vehicle.
-                    </p>
+    <section id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <h5> WT-CarRent</h5>
                 </div>
-               
+                <div class="col-md-5">
+
+                    <!-- <img src="image/rent1.jpeg" alt="rent5" id="image-home">  -->
+                    <form class="form-group" id="myform" onsubmit="return validation()"
+                        action="https://formspree.io/mjvgrdrp" method="POST">
+                        <h4 class="form-heading">Book a Car</h4>
+                        <h4 class="form-heading"> Pick Up Location</h4>
+                        <input type="text" class="input-field" placeholder="your location"><br>
+                        <input type="email" class="input-field" placeholder="Pick up date">
+                        <input type="text" class="input-field" placeholder="Return Date">
+
+
+                        <div id="submit-btn">
+                            <button type="button" class="btn btn-primary btn-sm" input type="submit"
+                                value="">Book</button>
+
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-2"> </div>
+
+    </section>
+    <section id="services">
+        <h5> SERVICES</h5>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4  text-center" id="car-detail-col">
+                    <div class="car-service">
+                        <i class="fas fa-car fa-2x"></i>
+                        <h2 class="car-service-head">CAR WASH</h2>
+                        <p class="car-service-text">
+                            Industry Use of the Word "Carwash" Versus "Car Wash" Considered. ... No one in the mobile
+                            car washing industry uses the word "carwash" to describe their businesses, and most everyone
+                            in the traditional location based carwashes uses "carwash" to
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col-md-4 text-center" id="car-detail-col">
+                    <div class="car-service">
+                        <i class="fas fa-car fa-2x"></i>
+                        <h2 class="car-service-head">CAR RENT</h2>
+                        <p class="car-service-text">
+                            Car rental. A car rental or car hire agency is a company that rents automobiles for short
+                            periods of time for a fee. It is often organized with numerous local branches, and primarily
+                            located near airports or busy city areas and often complemented
+                        </p>
+                    </div>
+
+
+                </div>
+                <div class="col-md-4 text-center" id="car-detail-col">
+                    <div class="car-service">
+                        <i class="fas fa-car fa-2x"></i>
+                        <h2 class="car-service-head"> CAR GLASS</h2>
+                        <p class="car-service-text">
+                            Vehicle glass includes windscreens, side and rear windows, and glass panel roofs on a
+                            vehicle. ... Back Glass also called rear window glass, rear windshield, or rear glass, is
+                            the piece of glass opposite the windshield in a vehicle.
+                        </p>
+                    </div>
+
+                </div>
             </div>
-        </div>
-     
-   
-</section>
-    <section id="special-offer">
+
+
+    </section>
+    <section id="type-offer">
         <h5> TYPES OF CARS</h5>
         <div class="container">
             <div class="row">
@@ -131,7 +150,7 @@
                         <h2 class="car-detail-head">Small Economy</h2>
                         <p class="car-detail-text">(Example of this range:Ford Fiesta)</p>
                     </div>
-                    <img src="image/car/carl1.jpeg" alt="car"  id="special-offer-car">
+                    <img src="image/car/carl1.jpeg" alt="car" id="special-offer-car">
 
 
                 </div>
@@ -140,7 +159,7 @@
                         <h2 class="car-detail-head">Medium:low emission</h2>
                         <p class="car-detail-text">(Example of this range:Ford Mondeo)</p>
                     </div>
-                    <img src="image/car/carl2.jpeg" alt="car"  id="special-offer-car">
+                    <img src="image/car/carl2.jpeg" alt="car" id="special-offer-car">
 
                 </div>
                 <div class="col-md-4 text-center" id="car-detail-col">
@@ -148,147 +167,151 @@
                         <h2 class="car-detail-head">Large: Station Wagon</h2>
                         <p class="car-detail-text">(Example of this range:Mazda 6)</p>
                     </div>
-                    <img src="image/car/carl4.jpeg" alt="car"  id="special-offer-car">
+                    <img src="image/car/carl4.jpeg" alt="car" id="special-offer-car">
                 </div>
             </div>
-         
-       
+
+
     </section>
-<section id="cars">
-    <h5> Cars</h5>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3">
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row no-gutters">
-                      <div class="col-md-4">
-                        <img src="image/car/car5.jpeg" class="card-img" alt="..." id="car-speical-image2">
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">Hatchback.</h5>
-                          <p class="card-text"><i class="fas fa-car"></i>  MODEL:  2016</p>
-                          <i class="fas fa-user-friends"> 5-6</i>
-                          <p class="card-text"><small class="text-muted"><a href="#">View Vechiel detalis</a></small></p>
+    <section id="cars">
+        <h5> Cars</h5>
+        <div class="container">
+            <div class="row">
+            
+                <div class="col-md-4">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="image/car/car2.jpeg" class="card-img" alt="..." id="car-speical-image2">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">FORD</h5>
+                                    <p class="card-text"><i class="fas fa-car"></i> MODEL: 2014</p>
+                                    <i class="fas fa-user-friends"> 5-6</i>
+                                    <p class="card-text"><small class="text-muted"><a href="#">View Vechiel
+                                                detalis</a></small></p>
+                                </div>
+                            </div>
                         </div>
-                      </div>
                     </div>
-                  </div>
 
-            </div>
-            <div class="col-md-3">
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row no-gutters">
-                      <div class="col-md-4">
-                        <img src="image/car/car2.jpeg" class="card-img" alt="..." id="car-speical-image2">
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">FORD</h5>
-                          <p class="card-text"><i class="fas fa-car"></i>  MODEL:  2014</p>
-                          <i class="fas fa-user-friends"> 5-6</i>
-                          <p class="card-text"><small class="text-muted"><a href="#">View Vechiel detalis</a></small></p>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="image/car/car1.jpeg" class="card-img" alt="..." id="car-speical-image2">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">NISSAN</h5>
+                                    <p class="card-text"><i class="fas fa-car"></i> MODEL: 2013</p>
+                                    <i class="fas fa-user-friends"> 5-7</i>
+                                    <p class="card-text"><small class="text-muted"><a href="#">View Vechiel
+                                                detalis</a></small></p>
+                                </div>
+                            </div>
                         </div>
-                      </div>
                     </div>
-                  </div>
 
-            </div>
-            <div class="col-md-3">
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row no-gutters">
-                      <div class="col-md-4">
-                        <img src="image/car/car1.jpeg" class="card-img" alt="..." id="car-speical-image2">
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">NISSAN</h5>
-                          <p class="card-text"><i class="fas fa-car"></i>  MODEL:  2013</p>
-                          <i class="fas fa-user-friends"> 5-7</i>
-                          <p class="card-text"><small class="text-muted"><a href="#">View Vechiel detalis</a></small></p>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="image/car/car3.jpeg" class="card-img" alt="..." id="car-speical-image2">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Sedan</h5>
+                                    <p class="card-text"><i class="fas fa-car"></i> MODEL: 2012</p>
+                                    <i class="fas fa-user-friends"> 5-6</i>
+
+                                    <p class="card-text"><small class="text-muted"><a href="#">View Vechiel
+                                                detalis</a></small></p>
+                                </div>
+                            </div>
                         </div>
-                      </div>
                     </div>
-                  </div>
 
-            </div>
-            <div class="col-md-3">
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row no-gutters">
-                      <div class="col-md-4">
-                        <img src="image/car/car5.jpeg" class="card-img" alt="..." id="car-speical-image2">
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">Sedan</h5>
-                          <p class="card-text"><i class="fas fa-car"></i>  MODEL:  2012</p>
-                          <i class="fas fa-user-friends"> 5-6</i>
-                        
-                          <p class="card-text"><small class="text-muted"><a href="#">View Vechiel detalis</a></small></p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
+                </div>
             </div>
         </div>
-    </div>
- 
-</section>
 
-<section id="special-offer-cars">
-    <h5> SPECIAL-OFFERS</h5>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 text-center">
-               
-                <div class="special-offer-det">
-                    
-                    <h2 class="car-sepcial-head">$29/day</h2>
-                    <img src="image/car/car1.jpeg"  alt="car" id="car-speical-image1">
-                   <p class="car-special-text">
-                        The Mazda CX-5 is a compact crossover produced by Mazda starting in 2012 for the 2013 model year lineup. It is Mazda's first car featuring the new KODO – d Mazda6.
-                    </p>
+    </section>
 
-                </div>
-           
-            </div>
-            <div class="col-md-6 text-center">
-                <div class="special-offer-det text-center">
-                    
-                    <h2 class="car-sepcial-head">$39/day</h2>
-                    <img src="image/car/car2.jpeg" alt="car" id="car-speical-image1">
-                    <p class="car-special-text">
-                        Ford Motor Company, commonly known as Ford, is an American multinational automaker that has its main headquarters in Dearborn, Michigan, a suburb of Detroit
-                    </p>
+    <section id="special-offer-cars">
+        <h5> SPECIAL-OFFERS</h5>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center">
+
+                    <div class="special-offer-det">
+
+                        <h2 class="car-sepcial-head">$29/day</h2>
+                        <img src="image/car/car1.jpeg" alt="car" id="car-speical-image1">
+                        <p class="car-special-text">
+                            The Mazda CX-5 is a compact crossover produced by Mazda starting in 2012 for the 2013 model
+                            year lineup. It is Mazda's first car featuring the new KODO – d Mazda6.
+                        </p>
+                    </div>
 
                 </div>
-           
+                <div class="col-md-6 text-center">
+                    <div class="special-offer-det text-center">
+
+                        <h2 class="car-sepcial-head">$39/day</h2>
+                        <img src="image/car/car2.jpeg" alt="car" id="car-speical-image1">
+                        <p class="car-special-text">
+                            Ford Motor Company, commonly known as Ford, is an American multinational automaker that has
+                            its main headquarters in Dearborn, Michigan, a suburb of Detroit
+                        </p>
+
+                    </div>
+
+                  
+
+                    </div>
+                    <div class="col-md-4 text-center"></div>
+                            <div class="col-md-4 text-center">
+                                <div class="special-offer-de text-center">
+              
+                                    <img src="image/icon1.png" alt="car" id="car-speical-ima">
+                                    <p class="car-special-rent">WT-CARRENT </p>
+            
+                                </div>
+                                 </div>
+                                    <div class="col-md-4 text-center">      </div>
+                      
+    
+                        </div>
+
+                </div>
+
+
             </div>
-        </diiv>
-    </div>
+        
+    </section>
 
-    </div>
-</section>
+    <footer class="footer-1">
+        <div class="fotter-text">
+            <p>Posted by: Hidri</p>
+            <p> <a href="#">wtRentcar@gmail.com</a> </p>
+            <ul class="social-media">
+                <li><a href="#"> Contact</a></li>
+                <li><a href="#">Email:info@wwtRentcar.com</a></li>
+                <li><a href="#">Tel:+254-745970352</a></li>
+            </ul>
+        </div>
 
-<footer class="footer-1">
-    <div class="fotter-text">
-        <p>Posted by: Hidri</p>
-    <p> <a href="#">wtRentcar@gmail.com</a>  </p>
-    <ul class="social-media">
-        <li><a href="#"> Contact</a></li>
-        <li><a href="#">Email:info@wwtRentcar.com</a></li>
-        <li><a href="#">Tel:+254-745970352</a></li>
-    </ul>
-    </div>
-    
-  </footer>
+    </footer>
 
-    </body>   
+</body>
 
-    
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
 </script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
