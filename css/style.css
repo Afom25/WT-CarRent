@@ -6,11 +6,11 @@
 }
 .navbar-brand {
     text-align: center;
-    padding-left: 100px;
+    padding-left: 800px;
 }
 
 ul.navbar-nav.ml-auto{
-    padding-right: 100px;
+    padding-right: 80px;
 }
 li.nav-item{
     padding-left:20px;
@@ -31,7 +31,7 @@ li.nav-item{
 }
 form#myform.form-group{
     padding: 70px;
-    margin-top: 21rem;;
+    margin-top: 15rem;;
 }
 input.input-field{
     padding: 3px;
@@ -153,6 +153,7 @@ h5{
 .footer-1 {
     background: #212226;
     padding:20px;
+    margin-top: 5rem;;
 }
 .fotter-text p{
     text-align: center;
