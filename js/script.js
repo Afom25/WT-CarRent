@@ -42,12 +42,12 @@ $ (function(){
 });
 $(window).on('load', function(){
     $("#image-wine1").addClass("animated fadeInDown");
-    $("#image-wine2").addClass("animated fadeInDown");
+    $("#icar-speical-image1").addClass("animated fadeInDown");
     $("#image-wine3").addClass("animated fadeInDown");
     $("#about-city-image").addClass("animated fadeInLeft");
-    $("#about-city-t").addClass("animated fadeInRIght");
-    $(".wine-heading").addClass("animated fadeInLeft");
-    $(".contact-box").addClass("animated fadeInDown");
-    $(".home-heading").addClass("animated fadeInDown ");
+    $("#car-detail-col").addClass("animated fadeInRIght");
+    $("#car-detail-col").addClass("animated fadeInLeft");
+    $(".car-service").addClass("animated fadeInDown");
+    $("#car-speical-image2").addClass("animated fadeInDown ");
 
 })
