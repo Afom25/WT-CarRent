@@ -1,0 +1,15 @@
+
+
+/** Navbar **/
+
+.navbar-brand {
+    text-align: center;
+    padding-left: 300px;
+}
+
+ul.navbar-nav.ml-auto{
+    padding-right: 100px;;
+}
+li.nav-item{
+    padding-left:20px;
+}
