@@ -51,9 +51,69 @@ textarea.input-field.textarea-field{
 
 /*special-offer*/
 
+#car-detail-col{
+    margin-top: 2rem;;
+ 
+}
+.car-detail{
+    background: rgb(6, 6, 253);
+}
+.car-detail-head{
+    font-size: 25px;
+    color:white;
+}
+.car-detail-text{
+    font-size: 13px;
+    color:white;
+}
 #special-offer-car{
     width:350px;
     padding:20px;
     text-align: center;
     padding-left: 10px;;
+}
+.special-offer-det{
+    background: rgb(6, 6, 253);
+}
+#special-offer-head{
+    text-align: center;
+    font-size: 25px;;
+}
+.special-offer-head #special-offer-head{
+    text-align: center;
+    font-size: 25px;;
+}
+.car-sepcial-head{
+    color:white;
+    font-size: 25px;
+    text-align: center;
+}
+.car-special-text{
+    color:white;
+    font-size: 14px;;
+}
+#car-speical-image1{
+    width:100px;
+    border-radius: 50%;
+}
+#car-speical-image2{
+    width: 100px;
+    border-radius: 50%;
+}
+h5{
+    text-align: center;
+}
+
+
+
+
+/*fotter*/
+
+.footer-1 {
+    background: #212226;
+    padding:20px;
+}
+.fotter-text p{
+    text-align: center;
+    color:blue;
 }
